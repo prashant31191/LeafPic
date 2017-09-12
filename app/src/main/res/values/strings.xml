@@ -206,6 +206,7 @@
     <string name="paypal_text">PayPal.Me allows you to send us money in seconds without charges,
         if you use a credit card PayPal takes 4% of donations and a standard fee of 0.35€ </string>
 
+    <string name="paypal_text_my">PayPal.Me allows you to send us money in seconds Donate 3$ </string>
     <!--ABOUT STRINGS-->
     <string name="about">About</string>
     <string name="about_version">Version</string>

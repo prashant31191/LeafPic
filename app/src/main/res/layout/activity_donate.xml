@@ -26,6 +26,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
             <android.support.v7.widget.CardView
+                android:visibility="gone"
                 android:id="@+id/donate_header_card"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -82,6 +83,7 @@
 
             <!--DONATE GOOGLE PLAY-->
             <android.support.v7.widget.CardView
+                android:visibility="gone"
                 android:id="@+id/donate_googleplay_card"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -205,7 +207,7 @@
                         android:id="@+id/donate_paypal_item"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/paypal_text"
+                        android:text="@string/paypal_text_my"
                         android:textColor="@color/md_dark_background"
                         android:textSize="@dimen/medium_text"
                         android:paddingRight="@dimen/big_spacing"
@@ -229,6 +231,7 @@
 
             <!--DONATE BITCOIN -->
             <android.support.v7.widget.CardView
+                android:visibility="gone"
                 android:id="@+id/donate_bitcoin_card"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

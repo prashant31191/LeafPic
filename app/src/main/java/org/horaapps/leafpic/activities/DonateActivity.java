@@ -108,7 +108,7 @@ public class DonateActivity extends ThemedActivity {
         findViewById(R.id.button_donate_paypal).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                cts.launchUrl("https://www.paypal.me/prashant3");
+                cts.launchUrl("https://www.paypal.me/prashant3/3");
             }
         });
 
